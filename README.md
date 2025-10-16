@@ -2,23 +2,19 @@
 
 ## Overview
 
-TODO: Write a project description
+This project has a screen of bouncing balls, and in the middle is an evil circl where if a ball hits the evil circle it will disappear
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+I used some copilot for helping me with the bouncing balls counter It was manily this code here 
+'
+const para = document.querySelector("p");
+let ballCount = 0;
+function updateCount() {
+  if (para) para.textContent = `Ball count: ${ballCount}`;
+}
+'
 
-A simple bulleted list below is sufficient. For example:
+I have never really done that before, If i could have done it a different way i totally would But i just did what was in the instructions. 
 
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+In order to run this project just use the live server and watch the magic happen.
